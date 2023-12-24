@@ -1,0 +1,39 @@
+body {
+    background-image: url('bg.avif'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .weather-info {
+     text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(250, 250, 250, 0.5);
+    font-family: 'Roboto', sans-serif; /* Change font for the weather info section */
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for weather data */
+  #weatherData {
+    margin-top: 20px;
+  }
+  
+  /* Styling for weather icon */
+  #weatherIcon {
+    margin-top: 20px;
+  }
+  
+  
